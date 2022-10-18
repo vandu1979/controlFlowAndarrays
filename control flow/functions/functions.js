@@ -13,7 +13,7 @@ let maria = getDevObject("Maria" , "HTML", "CSS", "JavaScript");
 
 function getDevObject(name){
     let skills = [];
-function getDevObject(name, ....skills){}
+function getDevObject(name, ...skills){}
 //for(let i = 1; i < arguments.length; i++){
  //   skills.push(argument[i]);
 //}  
@@ -40,21 +40,21 @@ sayName("Overton");*/
 }
     calculateAreaOgSquare(38, 18);*/
 
-    const calculateAreaOfTriangle = (base, height) => {
-        let sqft = 1/2 (base * height);
-        console.log(`The area Of Triangle is ${}`)
-    }
+    // const calculateAreaOfTriangle = (base, height) => {
+        // let sqft = 1/2 (base * height);
+        // console.log(`The area Of Triangle is ${}`)
+    // }
 
 
 
 
 
-const circle = radius => () => {
+// const circle = radius => () => {
      let  radius = radius(" What is the radius of you circle? \t");
-     let circleArea = math.3.14 * radius * radius;
+     let circleArea = math.pi() * radius * radius;
     
     console.log("The area of circle is" +  circleArea)
 }
 
-calculateAreaOfCircle();
+// calculateAreaOfCircle();
     
